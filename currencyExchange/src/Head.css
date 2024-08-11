@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.Main-Head-containor{
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Head-text{
+    font-size: 48px;
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(23, 76, 122);
+}
+.Head-image{
+    height: 80%;
+    width: 90%;
+    background-color: aqua;
+}
+.Navbar-containor{
+    width: 90%;
+    /* background-color: aquamarine; */
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Navbar>li{
+    padding: 5px 20px;
+    list-style: none;
+    font-family: 'Ubuntu';
+    color: rgb(23, 76, 122);
+    cursor: pointer;
+}
+.Navbar>li:hover{
+    opacity: 0.6;
+    transition: 0.4s linear;
+}
